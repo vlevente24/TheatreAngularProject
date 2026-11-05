@@ -1,4 +1,18 @@
-# Theater
+# Theater (Angular Project)
+
+A lightweight, modular Single-Page Application (SPA) built with **Angular** and **TypeScript**. This personal project was created to explore modern frontend architecture by providing an intuitive interface for browsing theatrical dramas, performance schedules, and detailed cast/role information.
+
+## Key Features
+* **Dramas Catalog:** Browse through available theatrical plays and dramas.
+* **Performance Schedules:** View upcoming and past performances linked to specific plays and theaters.
+* **Detailed Performance View:** Inspect in-depth information about a specific performance, including character roles and cast details.
+* **Client-Side Routing:** Seamless navigation between the main page, catalogs, and detailed views, including custom 404 (Page Not Found) handling.
+
+## Architecture & Tech Stack
+* **Framework:** Angular (TypeScript, HTML5, CSS3)
+* **Data Models:** Strictly typed interfaces/models (`Drama`, `Performance`, `DetailedPerformance`, `Role`) ensuring clean data flow across components.
+* **Service Layer:** Decoupled business logic and API communication handled via `TheaterService`, `DramaService`, and `PerformanceService`.
+* **Backend Integration:** Configured with a local development proxy (`proxy.conf.json`) for seamless REST API communication.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.4.
 
